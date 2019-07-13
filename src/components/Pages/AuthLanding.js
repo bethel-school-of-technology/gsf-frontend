@@ -35,43 +35,30 @@ export default class AuthLanding extends Component {
 
         <div className="carousel-inner">
           <div className="item active">
-            {/* <img src={require('../Img/lights.png')} alt="Bulletproof" style={{ width: "100%"}}/> */}
+            <img src={require('../Img/bulletproofgood.jpg')} alt="Bulletproof" style={{ width: "100%", height: "100%" }}/>
             < div className = "carousel-caption" >
-              <h5>Marty Grubbs-Bulltetproof Fitness</h5>
-              <p> "."
-              </p>
             </div>
           </div>
 
            <div className="item">
-              {/* <img src={require('../Img/lights.png')} alt="CleanSlate" style={{ width: "100%"}}/> */}
+              <img src={require('../Img/cleanslate.jpg')} alt="CleanSlate" style={{ width: "100%", height: "100%" }}/>
                 <div className="carousel-caption">
-                  <h5>Marissa Oliver-Clean Slate Fitness</h5>
-                    <p>"."
-                    </p><br/>
                 </div>
             </div>
     
             <div className="item">
-              {/* <img src={require('../Img/lights.png')} alt="NoraNation" style={{ width: "100%"}}/> */}
+              <img src={require('../Img/noranation.jpg')} alt="NoraNation" style={{ width: "100%", height: "100%" }}/>
                   <div className="carousel-caption">
-                          <h5>Nora Hendrix-NoraNation</h5>
-                          <p> "."
-                          </p>
                       </div>
                     </div>
                   </div>
 
                   <div className="item">
-              {/* <img src={require('../Img/lights.png')} alt="Jake" style={{ width: "100%"}}/> */}
+              {/* <img src={require('../Img/jake.jpg')} alt="Jake" style={{ width: "100%", height: "100%" }}/> */}
                   <div className="carousel-caption">
-                          <h5>Jake Blackwell-Owner</h5>
-                          <p> "."
-                          </p>
                       </div>
                     </div>
                   </div>
-
 
               <a className="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span className="glyphicon glyphicon-chevron-left"></span>
