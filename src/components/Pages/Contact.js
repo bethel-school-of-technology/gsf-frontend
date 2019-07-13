@@ -30,7 +30,7 @@ class Contact extends Component {
                     </div>
                     <div className="col-md-6">
                       <h3>Mandee Miller</h3>
-                      {/* < img className="Mandee" src={require('../Img/.jpg')} alt="Mandee" /> */}
+                      {/* < img className="Mandee" src={require('../Img/mandee.jpg')} alt="Mandee" /> */}
                       <p className="dev-info">
                         Location: , OH
                         <br />
@@ -44,7 +44,7 @@ class Contact extends Component {
                     <br />
                     <div className="col-md-6">
                       <h3>Justin </h3>
-                      {/* < img className="Justin" src={require('../Img/Justin.jpg')} alt="Justin" /> */}
+                      {/* < img className="Justin" src={require('../Img/justin.jpg')} alt="Justin" /> */}
                       <p className="dev-info">
                         Location: , GA
                         <br />
