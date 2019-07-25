@@ -17,7 +17,7 @@ class Contact extends Component {
                   <div className="grid-container">
                     <div className="col-md-6">
                       <h3>Cameron Schilling</h3>
-                      {/* < img className="Cam" src={require('../Img/cam.jpg')} alt="Cam" /> */}
+                      < img className="Cam" src={require('../Img/cam.jpg')} alt="Cam" />
                       <p className="dev-info">
                         Location: Paducah, KY
                         <br />
@@ -28,9 +28,9 @@ class Contact extends Component {
                       <a rel="noopener noreferrer"      href="https://www.linkedin.com/in/cameron-schilling-110094184"   target="_blank" >More about Cameron</a>
 
                     </div>
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6">
                       <h3>Mandee Miller</h3>
-                      {/* < img className="Mandee" src={require('../Img/.jpg')} alt="Mandee" /> */}
+                      < img className="Mandee" src={require('../Img/mandee.jpg')} alt="Mandee" />
                       <p className="dev-info">
                         Location: , OH
                         <br />
@@ -38,13 +38,13 @@ class Contact extends Component {
                           <br />
                         Whats next? --.
                       </p>
-                      <a rel="noopener noreferrer" href="https://www.linkedin.com/in/mandeemiller-35a99b185/" target="_blank">More about Mandee</a>
+                      <a rel="noopener noreferrer" href="https://www.linkedin.com/in/mandeemiller-35a99b185/" target="_blank">More about Mandee</a> */}
           
-                    </div>
+                    {/* </div>
                     <br />
                     <div className="col-md-6">
                       <h3>Justin </h3>
-                      {/* < img className="Justin" src={require('../Img/Justin.jpg')} alt="Justin" /> */}
+                      < img className="Justin" src={require('../Img/justin.jpg')} alt="Justin" />
                       <p className="dev-info">
                         Location: , GA
                         <br />
@@ -53,7 +53,7 @@ class Contact extends Component {
                         Whats next ? --.
                       </p>
                       <a href="https://www.linkedin.com/in/justin-shannon-9a7255174/" rel="noopener noreferrer"
-                      target="_blank">More about Justin</a>
+                      target="_blank">More about Justin</a> */}
                       
                       
                     </div>
@@ -62,7 +62,7 @@ class Contact extends Component {
               </div>
             </div>
           </div>
-        </div>
+        // </div>
     );
   }
 }
