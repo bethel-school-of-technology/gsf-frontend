@@ -1,1 +1,287 @@
+@media only screen and (max-width: 3200px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    background-color: rgb(8, 8, 8);
+  }
 
+  .container {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .profile-text {
+    margin-top: 2em;
+  }
+  img {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+
+  .landing {
+    position: relative;
+    background: url("./Components/Img/landing-BG.jpg")
+      no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 250vh;
+  }
+
+  .about {
+    background: url("./Components/Img/landing-BG.jpg")
+  }
+
+  .landing-inner {
+    padding-top: 80px;
+  }
+
+  .aontact {
+    /* background: url("./Components/Img/.jpg") */
+  }
+
+  .aboutBG {
+    background: url("./Components/Img/about-bg.jpg")
+  }
+
+  .Login {
+    /* background: url("./Components/Img/.jpg") */
+  }
+
+  .signup {
+    /* background: url("./Components/Img/.jpg") */
+  }
+
+
+
+  .feed {
+    background-color: #414141;
+    position: relative;
+    background: url("./Components/Img/Genesis\ Splash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: auto;
+  }
+
+  .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-form {
+    opacity: 0.9;
+  }
+
+  .card.card-body {
+    background-color: black;
+    opacity: .6;
+    color: white;
+
+
+  }
+
+  .latest-profiles-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .form-control::placeholder {
+    color: #bbb !important;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  link {
+    position: fixed;
+  }
+
+  form {
+    margin-left: 5em;
+    margin-right: 5em;
+    width: 70%;
+    align-content: center;
+  }
+
+  .Mandee {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  .Cam {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    align-content: center;
+  }
+  .Justin {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+
+  .dev-info {
+    margin-top: 10px;
+  }
+
+  .avatar-feed {
+    height: 150px;
+    width: auto;
+    border-radius: 90%;
+    float: left;
+  }
+
+  .text-center {
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  
+  Footer {
+    opacity: .5;
+    position: bottom;
+    margin-left: 0;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .grid-container {
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 60px;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-right: 30px;
+  }
+  
+  .contact-header {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding-right: 30px;
+  }
+  
+  .landing-header {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding-right: 30px;
+  }
+  
+  .logout {
+    color: rgb(0, 253, 0)
+  }
+
+  .login {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 20px;
+    padding-right: 20px;
+  
+  }
+
+  .register {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+ 
+ .carousel-inner>.item>img,
+ .carousel-inner>.item>a>img {
+   display: block;
+   width: 100%;
+   opacity: 70%;
+   height: auto !important;
+   align-content: center;
+   align-self: center;
+ }
+ .carousel-caption {
+   padding-top: 40px;
+   display: block;
+   max-width: 100%;
+   height: auto !important;
+   margin-bottom: 0;
+
+ }
+ .carousel-container{
+   margin-top: 90px;
+   align-self: center;
+   height:auto;
+   width:auto;
+ }
+ .carousel-indicators  {
+   align-content: center;
+   padding-left: 60px;
+   height: auto;
+   width: auto;
+ }
+
+.counter{
+  color: rgb(5, 5, 5);
+  float: right;
+  margin-right: 2.5em;
+  /* float: right; */
+  margin-bottom: 20px;
+}
+
+
+
+ .login-error {
+   color: rgb(209, 24, 24);
+   
+ }
+
+.login-error {
+    -moz-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+        align-self: auto;
+        align-content: center;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+}
