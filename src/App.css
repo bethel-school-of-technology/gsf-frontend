@@ -22,46 +22,64 @@
 
   .landing {
     position: relative;
-    background: url("./Components/Img/landing-BG.jpg")
-      no-repeat;
+    background-color: black;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     height: 250vh;
   }
 
-  .about {
-    background: url("./Components/Img/landing-BG.jpg")
+  .aboutBG {
+    position: relative;
+    background: url("./Components/Img/about-bg.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 250vh;
   }
 
+  .authLandingBG {
+    position: relative;
+    background: url("./Components/Img/landing-BG.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 250vh;
+  }
+
+  .landingBG {
+    position: relative;
+    background: url("./Components/Img/landing-BG.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 250vh;
+  }
+
+  .contactBG {
+    position: relative;
+    background: url("./Components/Img/contact.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 250vh;
+  }
+ 
   .landing-inner {
     padding-top: 80px;
   }
 
-  .aontact {
-    /* background: url("./Components/Img/.jpg") */
-  }
-
-  .aboutBG {
-    background: url("./Components/Img/about-bg.jpg")
-  }
-
-  .Login {
-    /* background: url("./Components/Img/.jpg") */
-  }
-
-  .signup {
-    /* background: url("./Components/Img/.jpg") */
-  }
 
 
+  
 
   .feed {
-    background-color: #414141;
+    color: #35f406;
+    /* background-color: #414141; */
     position: relative;
     background: url("./Components/Img/Genesis\ Splash.jpg");
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto;
     height: auto;
     width: auto;
   }
@@ -105,7 +123,7 @@
 
 
   [class*="col-"] {
-    float: left;
+    float: center;
     padding: 15px;
   }
   link {
@@ -119,22 +137,13 @@
     align-content: center;
   }
 
-  .Mandee {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-  }
   .Cam {
     height: 300px;
     width: 300px;
     border-radius: 50%;
     align-content: center;
   }
-  .Justin {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-  }
+  
 
   .dev-info {
     margin-top: 10px;
@@ -144,12 +153,12 @@
     height: 150px;
     width: auto;
     border-radius: 90%;
-    float: left;
+    float: center;
   }
 
   .text-center {
-    float: left;
-    margin-left: 20px;
+    float: center;
+    /* margin-left: 20px; */
     text-align: center;
   }
   
@@ -196,6 +205,12 @@
   }
 
   .login {
+    position: relative;
+    background: url("./Components/Img/Genesis\ Splash.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 250vh;
     text-align: center;
     align-content: center;
     align-items: center;
@@ -205,6 +220,12 @@
   }
 
   .register {
+    position: relative;
+    background: url("./Components/Img/Genesis\ Splash.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 250vh;
     text-align: center;
     align-content: center;
     align-items: center;
