@@ -6,18 +6,20 @@ export default class AuthLanding extends Component {
     return (
       <div>
          <div className="landing">
+           <div className="authLandingBG">
         <div className="dark-overlay landing-inner text-light">
+        
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
               <div className="landing-header">
                 <h3 className="display-3 mb-4" style={{color: '#EFEDE1'}}>Welcome To Genesis</h3>
                 <p className="lead" style={{color: '#EFEDE1'}}>
-                  Be encouraged in the goodness of God!
+                  Your Fitness Journey Starts Here!
                 </p>
                 <hr />
                 <Link to="/feed" className="btn btn-lg btn-info mr-2" style={{background: '#EFEDE1', color: 'black'}}>
-                  Check Out Events
+                  The Gains
                 </Link>
               </div>            
               </div>
@@ -35,39 +37,39 @@ export default class AuthLanding extends Component {
 
         <div className="carousel-inner">
           <div className="item active">
-            {/* <img src={require('../Img/lights.png')} alt="Bulletproof" style={{ width: "100%"}}/> */}
+            <img src={require('../Img/bulletproofgood.jpg')} alt="Bulletproof" style={{ width: "100%", height: "100%" }}/>
             < div className = "carousel-caption" >
-              <h5>Marty Grubbs-Bulltetproof Fitness</h5>
-              <p> "."
-              </p>
+              {/* <h5>Marty Grubbs-Bulltetproof Fitness</h5> */}
+              {/* <p> "."
+              </p> */}
             </div>
           </div>
 
            <div className="item">
-              {/* <img src={require('../Img/lights.png')} alt="CleanSlate" style={{ width: "100%"}}/> */}
+              <img src={require('../Img/cleanslate.jpg')} alt="CleanSlate" style={{ width: "100%", height: "100%" }}/>
                 <div className="carousel-caption">
-                  <h5>Marissa Oliver-Clean Slate Fitness</h5>
-                    <p>"."
-                    </p><br/>
+                  {/* <h5>Marissa Oliver-Clean Slate Fitness</h5> */}
+                    {/* <p>"."
+                    </p><br/> */}
                 </div>
             </div>
     
             <div className="item">
-              {/* <img src={require('../Img/lights.png')} alt="NoraNation" style={{ width: "100%"}}/> */}
+              <img src={require('../Img/noranation.jpg')} alt="NoraNation" style={{ width: "100%", height: "100%" }}/>
                   <div className="carousel-caption">
-                          <h5>Nora Hendrix-NoraNation</h5>
-                          <p> "."
-                          </p>
+                          {/* <h5>Nora Hendrix-NoraNation</h5> */}
+                          {/* <p> "."
+                          </p> */}
                       </div>
                     </div>
                   </div>
 
                   <div className="item">
-              {/* <img src={require('../Img/lights.png')} alt="Jake" style={{ width: "100%"}}/> */}
+              <img src={require('../Img/jake.jpg')} alt="Jake" style={{ width: "100%", height: "100%" }}/>
                   <div className="carousel-caption">
-                          <h5>Jake Blackwell-Owner</h5>
-                          <p> "."
-                          </p>
+                          
+                          {/* <p> "."
+                          </p> */}
                       </div>
                     </div>
                   </div>
@@ -85,6 +87,7 @@ export default class AuthLanding extends Component {
           </div>
         </div>
       </div>
+    </div>
     </div>
   </div>
     )
