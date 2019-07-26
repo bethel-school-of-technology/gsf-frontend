@@ -5,6 +5,7 @@ class Contact extends Component {
     return (
       <div>
         <div className="landing">
+          <div className="contactBG">
           <div className="dark-overlay landing-inner text-light">
             <div className="container">
               <div className="row">
@@ -61,6 +62,7 @@ class Contact extends Component {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         // </div>
     );
