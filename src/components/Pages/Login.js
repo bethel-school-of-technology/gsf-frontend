@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { loginUser } from '../../actions/authActions';
 import TextFieldGroup from '../common/TextFieldGroup';
 
+
 class Login extends Component {
   constructor() {
     super();
@@ -75,6 +76,7 @@ class Login extends Component {
   
     return (
       <div className="landing">
+        <div className="landingBG">
         <div className="dark-overlay landing-inner text-light">
         
       <div className="login">
@@ -111,6 +113,8 @@ class Login extends Component {
       </div>
       </div>
       </div>
+      </div>
+  
     );
   }
 }
