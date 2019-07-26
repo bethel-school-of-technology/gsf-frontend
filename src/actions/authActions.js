@@ -3,6 +3,7 @@ import { GET_ERRORS, SET_CURRENT_USER } from "./types";
 import setAuthToken from "../utils/setAuthToken";
 import jwt_decode from "jwt-decode";
 
+
 const baseUrl = process.env.REACT_APP_BASE_URL;
 
 // signup user: The general idea is that this portion of code is dispatching 
@@ -14,7 +15,7 @@ const baseUrl = process.env.REACT_APP_BASE_URL;
  * @param {go to the appropriate response page} history 
  */
 export const signupUser = (userData, history) => dispatch => {
-
+console.log(process.env.REACT_APP_BASE_URL)
   //
   axios
     .post(`${baseUrl}/users/signup`, userData)
@@ -30,7 +31,7 @@ export const signupUser = (userData, history) => dispatch => {
 /** This snippet of code is dispatching user data, type and errors. 
  * If the user is an authenticated user it will push the user to 
  * the authenticated portion of the site where the user can see a different header
- * and testimonies page where they can post a testimony 
+ * and workout testimonials or advice page where they can post something; 
  * 
  * @param {Grabbing User Data and setting token} userData 
  */
