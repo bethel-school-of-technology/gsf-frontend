@@ -104,8 +104,8 @@ class PostForm extends Component {
                   error={errors.title}
                 />
                 <TextAreaFieldGroup
-                  label="Share a Testimony"
-                  placeholder="Share a Testimony"
+                  label="What's Your Story?"
+                  placeholder="What's Your Story?"
                   name="story"
                   value={this.state.story}
                   onChange={this.onChange}
