@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "apeman-react-jumbotron": "^3.0.5",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
