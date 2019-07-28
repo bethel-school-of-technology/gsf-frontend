@@ -105,7 +105,7 @@ class EditPost extends Component {
                     error={errors.title}
                   />
                   <TextAreaFieldGroup
-                    placeholder="Share A Testimony"
+                    placeholder="Share The Gains"
                     name="story"
                     value={story}
                     onChange={this.onChange}

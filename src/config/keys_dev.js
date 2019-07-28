@@ -1,4 +1,4 @@
 module.exports = {
-  mongoURI: 'mongodb://martyria:Bethel1@ds211558.mlab.com:11558/martyria',
+  mongoURI: 'https://mlab.com/databases/gsf-betheltechfinal',
   secretOrKey: 'secret'
 };

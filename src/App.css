@@ -29,15 +29,7 @@
     height: 250vh;
   }
 
-  .aboutBG {
-    position: relative;
-    background: url("./Components/Img/about-bg.jpg") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 250vh;
-  }
-
+ 
   .authLandingBG {
     position: relative;
     background: url("./Components/Img/landing-BG.jpg") no-repeat;
@@ -59,6 +51,15 @@
   .contactBG {
     position: relative;
     background: url("./Components/Img/contact.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 250vh;
+  }
+
+  .aboutBG {
+    position: relative;
+    background: url("./Components/Img/about-bg.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;

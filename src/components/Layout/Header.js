@@ -25,7 +25,7 @@ class Header extends Component {
           <NavItem href='/authlanding' >Home</NavItem>
           <NavItem href='/contact'>Meet The Team</NavItem>
           <NavItem href='/about'>About</NavItem>
-          <NavItem href='/feed'>Events</NavItem>
+          <NavItem href='/feed'>The Feed</NavItem>
           <NavItem className="logout" 
           href='/' 
           onClick={this.onLogoutClick.bind(this)} >Logout</NavItem>
